@@ -1,18 +1,96 @@
-.navbar-nav .nav-item {
-    margin-right: 15px; /* Adjust this value to increase or decrease the space */
-  }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
 
-  /* This ensures the search bar is at the right end */
-  .navbar-collapse {
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.container {
     display: flex;
     justify-content: space-between;
-  }
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
 
-  .navbar-collapse ul {
-    flex-grow: 1;
-  }
+.logo {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
 
-  .navbar-collapse form {
-    margin-left: auto;
-  }
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+}
+
+#search-form {
+    margin-bottom: 1rem;
+}
+
+#search-form input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#search-form button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-form button:hover {
+    background-color: #555;
+}
+
+#weather-info {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: left;
+}
+
+img {
+    max-width: 100px;
+}
+
   
