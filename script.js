@@ -1,8 +1,8 @@
-// API URL and key
+
 const apiUrl = 'https://api.weatherapi.com/v1/current.json';
 const apiKey = '7f97e3f82d4244c9a58101541242007';
 
-// Function to fetch weather data for a given city
+
 async function fetchWeather(city) {
     try {
         const response = await fetch(`${apiUrl}?key=${apiKey}&q=${city}`);
@@ -17,7 +17,7 @@ async function fetchWeather(city) {
     }
 }
 
-// Function to display weather data
+
 function displayWeather(data) {
     const weatherInfo = document.getElementById('weather-info');
     const { location, current } = data;
@@ -32,7 +32,7 @@ function displayWeather(data) {
     `;
 }
 
-// Handle form submission
+
 document.getElementById('search-form').addEventListener('submit', function(event) {
     event.preventDefault();
     const city = document.getElementById('city-input').value;

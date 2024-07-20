@@ -3,6 +3,13 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
+    background-image: url("https://myradar.com/static/background-a089d87ba11e1a4c45a8efa960b86092.jpg");
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center center; /* Center the image horizontally and vertically */
+}
+h1{
+    color: #fff;
 }
 
 .navbar {
